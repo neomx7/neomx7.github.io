@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+  - 2.4.1
+install: 
+  - gem install jekyll-paginate
+script: jekyll build
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+  
+

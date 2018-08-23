@@ -1,6 +1,6 @@
 ---
 layout: page
-description: "Courage is the best quality of a human being."
+description: "Courage is the best quality of human being."
 ---
 
 {% for post in paginator.posts %}
