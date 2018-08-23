@@ -34,5 +34,5 @@ disqus_username: neomx7
 ## ba_track_id: 83e259f69b37d02a4633a2b7d960139c
 
 # Google Analytics
-ga_track_id: 'UA-124495208-1'            # Format: UA-xxxxxx-xx
+ga_track_id: ''            # Format: UA-xxxxxx-xx
 ga_domain: auto
