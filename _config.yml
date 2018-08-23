@@ -1,7 +1,7 @@
 # Site settings
 title: WildCall    				  	#你博客的标题
 SEOTitle: 野生物语 | WildCall Blog    	 #显示在浏览器上搜索的时候显示的标题
-header-img: /assets/css/images/bg.jpg	#显示在首页的背景图片
+header-img: assets/css/images/bg.jpg	#显示在首页的背景图片
 email: neomx7@gmail.com	
 description: "杂家的博客"  			 #网站介绍
 keyword: "IT Blog" #关键词
