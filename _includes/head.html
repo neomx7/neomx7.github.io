@@ -50,4 +50,20 @@
 
     <!-- ga & ba script hoook -->
     <script></script>
+
+	<!-- math -->
+	<script src="{{ "/static/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML" | prepend: site.baseurl }}"></script>
+	
+	<!-- katex -->
+	<link rel="stylesheet" href="{{ "/static/katex/katex.min.css" | prepend: site.baseurl }}">
+	<script src="{{ "/static/katex/katex.min.js" | prepend: site.baseurl }}"></script>
+
+	<!-- sequence -->
+	<script src="{{ "/static/js-sequence-diagrams-deps/webfont.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/static/js-sequence-diagrams-deps/snap.svg-min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/static/js-sequence-diagrams-deps/underscore-min.js" | prepend: site.baseurl }}"></script>
+	<link rel="stylesheet" href="{{ "/static/js-sequence-diagrams/dist/sequence-diagram-min.css" | prepend: site.baseurl }}">
+	<script src="{{ "/static/js-sequence-diagrams/dist/sequence-diagram-min.js" | prepend: site.baseurl }}"></script>
+ 
+
 </head>
